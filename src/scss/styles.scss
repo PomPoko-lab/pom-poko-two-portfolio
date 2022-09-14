@@ -4,14 +4,16 @@ $dropdown-dark-bg: rgb(29, 29, 29);
 @import '~bootstrap/scss/bootstrap';
 
 .img-project {
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
+  object-position: center;
   filter: brightness(0.5);
 }
 
 .img-project:hover {
-  transform: scale(1.05);
+  transform: scale(1.25);
   z-index: 1;
-  transition: transform;
+  cursor: pointer;
+  filter: brightness(1);
+  transition: all;
   transition-duration: 300ms;
 }

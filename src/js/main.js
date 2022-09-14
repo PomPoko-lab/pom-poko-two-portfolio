@@ -13,4 +13,4 @@ const popoverList = [...popoverTriggerList].map(
 
 selectors.btnHome.addEventListener('click', views.renderHome);
 selectors.btnAbout.addEventListener('click', views.renderAbout);
-// btnProjects.addEventListener('click', views.renderHome);
+selectors.btnProjects.addEventListener('click', views.renderProjects);
