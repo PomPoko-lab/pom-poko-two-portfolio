@@ -1,0 +1,17 @@
+$secondary: rgb(29, 29, 29);
+$dropdown-dark-bg: rgb(29, 29, 29);
+
+@import '~bootstrap/scss/bootstrap';
+
+.img-project {
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.5);
+}
+
+.img-project:hover {
+  transform: scale(1.05);
+  z-index: 1;
+  transition: transform;
+  transition-duration: 300ms;
+}
