@@ -7,31 +7,49 @@ const renderView = (htmlToRender) => {
 export const renderHome = () => {
   const html = `
   <main
-    class="text-center d-flex flex-column h-100 justify-content-center animate__animated animate__fadeIn"
-  >
-    <section class="mt-auto">
-      <h1 class="m-0 h1 lh-l" style="font-size: 3em">Hi,</h1>
-      <h1 class="m-0 h1 lh-l" style="font-size: 3em">
-        I'm <span class="text-primary fst-italic">Kenny</span>.
-      </h1>
-      <p class="display-5 mb-5">This is my portfolio.</p>
-      <a href="https://drive.google.com/file/d/16fxiYQ-FLut127TV6RJ3dn_en_35iNP7/view?usp=sharing"
-      target="_blank"
-      rel="noopener noreferrer"
-      role="button" class="btn btn-success"><i class="bi bi-download me-2"></i>Download Resume</a>
-    </section>
-    <section class="mt-auto mb-5 d-flex justify-content-center gap-2">
-      <i class="bi bi-envelope fs-4 display-1 my-auto"></i>
-      <p class="fs-4 display-1 my-auto">hello@pompoko.io</p>
-    </section>
-  </main>
+        class="text-center d-flex flex-column justify-content-center overflow-hidden h-100 animate__animated animate__fadeIn"
+      >
+        <section class="mt-auto">
+          <h1
+            class="m-0 h1 lh-l"
+            style="font-size: 3em"
+          >
+            Hi,
+          </h1>
+          <h1
+            class="m-0 h1 lh-l"
+            style="font-size: 3em"
+          >
+            I'm <span class="text-primary fst-italic">Kenny</span>.
+          </h1>
+          <p
+            class="display-5 mb-5"
+          >
+            This is my portfolio.
+          </p>
+          <a
+            href="https://drive.google.com/file/d/16fxiYQ-FLut127TV6RJ3dn_en_35iNP7/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="button"
+            class="btn btn-success"
+            ><i class="bi bi-download me-2"></i>Download Resume</a
+          >
+        </section>
+        <section
+          class="mt-auto mb-5 pb-5 d-flex justify-content-center gap-2"
+        >
+          <i class="bi bi-envelope fs-4 display-1 my-auto mb-5"></i>
+          <p class="fs-4 display-1 my-auto mb-5">hello@pompoko.io</p>
+        </section>
+      </main>
   `;
   renderView(html);
 };
 
 export const renderAbout = () => {
   const html = `
-  <main class="mt-5 animate__animated animate__fadeInDown">
+  <main class="mt-5 animate__animated animate__fadeIn">
   <div class="row mx-auto">
     <section class="col-12 mb-3 row m-0 p-0">
       <section class="col-12 col-md-6 d-flex flex-column">
