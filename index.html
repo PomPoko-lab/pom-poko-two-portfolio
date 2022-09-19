@@ -21,50 +21,9 @@
     ></script>
     <title>Kenny Cao</title>
   </head>
-  <body class="text-bg-dark">
-    <div
-      class="container vh-100 d-flex justify-content-center align-items-sm-center"
-      id="main-content"
-    >
-      <main
-        class="text-center d-flex flex-column h-100 justify-content-center overflow-hidden"
-      >
-        <section class="mt-auto">
-          <h1
-            class="m-0 h1 lh-l animate__animated animate__fadeIn animate__slower"
-            style="font-size: 3em"
-          >
-            Hi,
-          </h1>
-          <h1
-            class="m-0 h1 lh-l animate__animated animate__fadeIn animate__slow animate__delay-2s"
-            style="font-size: 3em"
-          >
-            I'm <span class="text-primary fst-italic">Kenny</span>.
-          </h1>
-          <p
-            class="display-5 mb-5 animate__animated animate__fadeIn animate__slower animate__delay-3s"
-          >
-            This is my portfolio.
-          </p>
-          <a
-            href="https://drive.google.com/file/d/16fxiYQ-FLut127TV6RJ3dn_en_35iNP7/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            role="button"
-            class="btn btn-success animate__animated animate__fadeIn animate__slow animate__delay-3s"
-            ><i class="bi bi-download me-2"></i>Download Resume</a
-          >
-        </section>
-        <section
-          class="mt-auto mb-5 pb-5 d-flex justify-content-center gap-2 animate__animated animate__fadeInUpBig animate__slower animate__delay-3s"
-        >
-          <i class="bi bi-envelope fs-4 display-1 my-auto mb-5"></i>
-          <p class="fs-4 display-1 my-auto mb-5">hello@pompoko.io</p>
-        </section>
-      </main>
-    </div>
-    <nav
+  <body class="text-bg-dark vh-100">
+    <!-- Nav with widget button -->
+    <!-- <nav
       class="btn-group dropstart position-fixed animate__animated animate__fadeInRight animate__slower animate__delay-3s"
       style="top: 80%; right: 10%"
     >
@@ -94,6 +53,102 @@
           </button>
         </li>
       </ul>
+    </nav> -->
+
+    <!-- Nav as header -->
+    <nav
+      class="navbar navbar-expand-sm navbar-dark bg-secondary fixed-top shadow-sm animate__animated animate__fadeInDown animate__slower animate__delay-4s"
+    >
+      <div class="container-sm">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./assets/img/pomMain.webp"
+            alt="My avatar"
+            style="max-width: 40px"
+          />
+          pompoko.</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto d-md-flex gap-md-5 pe-5">
+            <li class="nav-item">
+              <a class="nav-link" id="btn-home" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="btn-about" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="btn-projects" href="#">Projects</a>
+            </li>
+          </ul>
+          <a
+            href="https://drive.google.com/file/d/16fxiYQ-FLut127TV6RJ3dn_en_35iNP7/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="button"
+            class="btn btn-outline-success"
+            >Get Resume<i class="bi bi-download ms-2"></i
+          ></a>
+        </div>
+      </div>
     </nav>
+
+    <div
+      class="container d-flex justify-content-center align-items-sm-center mt-5 h-100"
+      id="main-content"
+    >
+      <main
+        class="text-center d-flex flex-column justify-content-center overflow-hidden h-100"
+      >
+        <section class="mt-auto">
+          <p
+            class="m-0 h1 lh-l animate__animated animate__fadeIn animate__slower"
+            style="font-size: 3em"
+          >
+            Hi,
+          </p>
+          <h1
+            class="m-0 h1 lh-l animate__animated animate__fadeIn animate__slow animate__delay-2s"
+            style="font-size: 3em"
+          >
+            I'm <span class="text-primary fst-italic">Kenny</span>.
+          </h1>
+          <p
+            class="display-5 mb-5 animate__animated animate__fadeIn animate__slower animate__delay-3s"
+          >
+            This is my portfolio.
+          </p>
+        </section>
+        <div
+          class="animate__animated animate__fadeIn animate__slower animate__delay-3s"
+        >
+          <p
+            class="mt-1 px-3 fw-lighter lead text-uppercase opacity-75"
+            style="letter-spacing: 3px"
+          >
+            Software Engineer // Web Developer
+          </p>
+        </div>
+
+        <section
+          class="mt-auto mb-5 pb-5 d-flex justify-content-center gap-2 animate__animated animate__fadeInUpBig animate__slower animate__delay-2s"
+        >
+          <i class="bi bi-envelope fs-4 display-1 my-auto mb-5"></i>
+          <p class="fs-4 display-1 my-auto mb-5">hello@pompoko.io</p>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
