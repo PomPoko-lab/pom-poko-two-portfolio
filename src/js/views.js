@@ -27,14 +27,6 @@ export const renderHome = () => {
           >
             This is my portfolio.
           </p>
-          <a
-            href="https://drive.google.com/file/d/16fxiYQ-FLut127TV6RJ3dn_en_35iNP7/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            role="button"
-            class="btn btn-success"
-            ><i class="bi bi-download me-2"></i>Download Resume</a
-          >
         </section>
         <section
           class="mt-auto mb-5 pb-5 d-flex justify-content-center gap-2"
