@@ -10,12 +10,12 @@ export const renderHome = () => {
         class="text-center d-flex flex-column justify-content-center overflow-hidden h-100 animate__animated animate__fadeIn"
       >
         <section class="mt-auto">
-          <h1
+          <p
             class="m-0 h1 lh-l"
             style="font-size: 3em"
           >
             Hi,
-          </h1>
+          </p>
           <h1
             class="m-0 h1 lh-l"
             style="font-size: 3em"
@@ -28,6 +28,12 @@ export const renderHome = () => {
             This is my portfolio.
           </p>
         </section>
+        <p
+          class="mt-1 px-3 fw-lighter lead text-uppercase"
+          style="letter-spacing: 3px"
+        >
+          Software Engineer // Web Developer
+        </p>
         <section
           class="mt-auto mb-5 pb-5 d-flex justify-content-center gap-2"
         >
