@@ -54,7 +54,7 @@ export const renderAbout = () => {
     <section class="col-12 mb-3 row m-0 p-0">
       <section class="col-12 col-md-6 d-flex flex-column">
         <img
-          class="rounded-circle w-75 d-inline-block align-self-center align-self-sm-start mb-2 shadow"
+          class="rounded-circle w-75 d-inline-block align-self-center align-self-sm-start mb-2 shadow-sm"
           style="max-width: 200px"
           src="./assets/img/NewMeCropped2.jpg"
           alt="Picture of me"
@@ -62,8 +62,8 @@ export const renderAbout = () => {
 
         <h2 class="display-3 mb-0">Kenny Cao</h2>
         <p class="fs-3 fw-light">Front End Engineer</p>
-        <p class="fs-5">
-          A
+        <p class="fs-5">Hello! I'm Kenny, a dog-loving, racoon-loving, business owner who enjoys gaming and programming. 
+          I'm a
           <span class="text-primary fst-italic">front-end engineer</span>
           who began self-taught studying learning web development and
           software engineering. Pursuing a Software Engineer degree at
@@ -86,7 +86,7 @@ export const renderAbout = () => {
     <section class="col-12">
       <h3 class="display-5 mb-2">Core Skills</h3>
       <h4 class="fs-3 fw-light">Programming Languages</h4>
-      <p class="fs-5 fst-italic">JavaScript, TypeScript</p>
+      <p class="fs-5 fst-italic">JavaScript, TypeScript, Java</p>
       <h4 class="fs-3 fw-light">Frameworks and Databases</h4>
       <p class="fs-5 fst-italic">
         React, NodeJS, Redux, ChakraUI, Bootstrap, TailwindUI, Express,
