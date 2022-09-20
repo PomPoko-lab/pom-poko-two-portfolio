@@ -107,35 +107,47 @@ export const renderProjects = () => {
         <h2 class="display-4 mb-5">Featured Projects</h2>
         <div class="row">
           <div class="col-12 col-md-6 p-0 overflow-hidden">
+          <a href="https://github.com/PomPoko-lab/pompoko-lab.github.io"
+          target="_blank"
+          rel="noopener noreferrer">
             <img
               src="./assets/img/PortfolioNotResized.jpg"
               alt="Portfolio Project"
               class="img-fluid img-project"
-            />
+            /></a>
           </div>
           <div class="col-12 col-md-6 p-0 overflow-hidden">
+          <a href="https://github.com/PomPoko-lab/TanukiBot-Node"
+          target="_blank"
+          rel="noopener noreferrer">
             <img
               src="./assets/img/Discordbot.jpg"
               alt="Portfolio Project"
               class="img-fluid img-project h-100"
               style="object-position: left"
-            />
+            /></a>
           </div>
           <div class="col-12 col-md-6 p-0 overflow-hidden">
+          <a href="https://github.com/PomPoko-lab/restaurant-page"
+          target="_blank"
+          rel="noopener noreferrer">
             <img
               src="./assets/img/restaurant-pageNotResized.jpg"
               alt="Portfolio Project"
               class="img-fluid img-project h-100"
               style="object-position: top"
-            />
+            /></a>
           </div>
           <div class="col-12 col-md-6 p-0 overflow-hidden">
+          <a href="https://github.com/PomPoko-lab/lost-ark-tools"
+          target="_blank"
+          rel="noopener noreferrer">
             <img
               src="./assets/img/lostarktools.jpg"
               alt="Portfolio Project"
               class="img-fluid img-project h-100"
               style="object-position: left"
-            />
+            /></a>
           </div>
         </div>
       </main>
